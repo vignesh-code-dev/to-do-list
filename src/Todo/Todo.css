@@ -1,0 +1,100 @@
+main{
+    
+}
+.main-container{
+    min-height:max-content;
+    margin: 5rem auto;
+    max-width: fit-content;
+    position:relative;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 15px black;
+    border-radius: 10px ;
+    padding-bottom: 1rem;
+}
+.title{
+   font-size: large;
+   color: blueviolet   ;
+}
+.inputbox{
+    padding: 1rem;
+}
+.inputlist{
+    outline: none;
+    padding: 1rem;
+    margin-right :1rem;
+    height: 2.5rem;
+    width: 20rem;
+    font-size: large;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    padding: 15px 12px;
+    font-weight: 500;
+    
+}
+.add{
+    background-color: blueviolet;
+    border: none;
+    height: 2.5rem;
+    width: 5rem;
+    color: white;
+    font-size: large;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.save{
+    background-color: rgb(24, 143, 56);
+    border: none;
+    height: 2.5rem;
+    width: 5rem;
+    color: white;
+    font-size: large;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.todo-list{
+    margin:0;
+    padding: 0rem;
+    position: relative;
+    /* border: 2px solid black;  */
+    height:fit-content;
+}
+.todo-list li {
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+     max-width: 26rem;
+     margin: 1rem;
+     margin-bottom: 1rem;
+    word-break: break-word;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px 12px;
+    border: 1px solid blueviolet;
+    background-color: rgb(255, 255, 255);
+
+
+}
+.text{
+    display: flex   ;
+    flex: .9;
+     font-size: larger;
+    color: blueviolet;
+    font-weight: 600;
+}
+.text span{
+ padding-left: 1rem;
+}
+.delete{
+    color:red;
+    outline: none;
+}
+.edit{
+    color:blue;
+    outline: none;
+}
+
