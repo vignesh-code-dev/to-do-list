@@ -1,6 +1,4 @@
-main{
-    
-}
+
 .main-container{
     min-height:max-content;
     margin: 5rem auto;
@@ -98,3 +96,27 @@ main{
     outline: none;
 }
 
+@media screen and (max-width: 768px){
+    .main-container{
+        max-width: 95%;
+        margin: 2rem auto;
+    }
+    .inputlist{
+        width: 90%;
+        margin-bottom: 0.5rem;
+        font-size: 14px;
+    }
+    .add, .save{
+        width: 40%;
+        font-size: 14px;
+        margin-top: 0.5rem;
+    }
+    .todo-list li{
+        max-width: 100%;
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+    .text{
+        font-size: 14px;
+    }
+}
